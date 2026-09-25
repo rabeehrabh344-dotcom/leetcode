@@ -8,8 +8,8 @@ var maximumWealth = function(accounts) {
     for (let customer of accounts) {
         let sum = 0;
 
-        for (let money of customer) {
-            sum += money;
+        for (let a of customer) {
+            sum += a;
         }
 
         if (sum > max) {
